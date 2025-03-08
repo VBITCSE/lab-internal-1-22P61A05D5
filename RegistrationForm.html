@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Registration Form</h2><br>
+    <form id="registrationForm" onsubmit="return handleSubmit()">
+        <label for="username">Username:</label>
+        <input id="username" type="text"><br><br>
+        <label for="email">Email:</label>
+        <input id="email" type="email"><br><br>
+        <label for="phno">Phno:</label>
+        <input id="phno" type="number"><br><br>
+        <label for="pw">Password</label>
+        <input id="pw" type="password"><br><br>
+        <label for="cpw">Confirm Password</label>
+        <input id="cpw" type="password"><br><br>
+        <button type="submit">Submit</button><br><br>
+        <button type="reset">Reset</button>
+    </form>
+    <script>
+        function handleSubmit(){
+            alert("Form Submitted");
+            window.location.href="success.html";
+            return false;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+*{
+    margin: auto 0;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+body{
+    background-color: blanchedalmond;
+}
+button{
+    background-color: black;
+    color: white;
+}
+#registrationForm{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
